@@ -43,6 +43,7 @@ func TestDeploy(t *testing.T) {
 		Tick:          "WDOGE(WRAPPED-DOGE)",
 		Symbol:        "symbol",
 		Name:          "name",
+		Logo:          "path",
 		Amt:           "0",
 		Doge:          0,
 		HolderAddress: holderAddress.String(),

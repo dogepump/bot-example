@@ -22,6 +22,7 @@ type Inscription struct {
 	Doge          int    `json:"doge"`
 	Tick          string `json:"tick"`
 	Symbol        string `json:"symbol"`
+	Logo          string `json:"logo"`
 	Name          string `json:"name"`
 	Amt           string `json:"amt"`
 	HolderAddress string `json:"holder_address"`
